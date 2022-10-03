@@ -1,0 +1,180 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+body{
+	font-family: 'Trispace', monospace;
+	color: white;
+}
+.navbar, footer{
+	background-color:#15202b;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+section{
+	padding-top: 6rem;
+}
+.penghalang{
+	height: 300px;
+}
+#hello, #skill, #blog {
+	background-color:#192734;
+}
+#about, #projects, #contact {
+	background-color:#22303c;
+}
+.card-blog{
+	background-color:#192734;
+	border: 0;
+}
+.card-projects{
+	border: 4px solid #192734;
+	background-color: #192734;
+	transition: 0.5s;
+}
+.card-projects:hover{
+	margin-top: -5px;
+	margin-bottom: 5px;
+	box-shadow: 0 4px 8px 0 rgba(225, 225, 225, 0.2), 0 6px 20px 0 rgba(225, 225, 225, 0.19);
+}
+.sosial-media{
+	letter-spacing: 20px;
+}
+.html-st, .boostrap-st, .git-st, .css-st, .js-st{
+	transform: rotate(10deg);
+	transition: 0.5s;
+}
+.html-st:hover{
+	transform: rotate(0deg);
+	color: #FF5733;
+}
+.boostrap-st:hover{
+	transform: rotate(0deg);
+	color:#9147fe;
+}
+.css-st:hover{
+	transform: rotate(0deg);
+	color: skyblue;
+}
+.js-st:hover{
+	transform: rotate(0deg);
+	color: #F0DB4F;
+}
+.git-st:hover{
+	transform: rotate(0deg);
+	color: #F1502F;
+}
+.html-color{
+	color: #FF5733;
+}
+.boostrap-color{
+	color:#9147fe;
+}
+.css-color{
+	color: skyblue;
+}
+.js-color{
+	color: #F0DB4F;
+}
+.git-color{
+	color: #F1502F;
+}
+.bi-github, .fa-instagram, .bi-linkedin, .fa-twitter, .bi-facebook{
+	color: white;
+	transition: 0.5s;
+}
+.bi-github:hover{
+	color: #000;
+	font-size: 40px;
+}
+.fa-instagram:hover{
+	color: #C13584;
+	font-size: 40px;
+}
+.bi-linkedin:hover{
+	color: #2867B2;
+	font-size: 40px;
+}
+.fa-twitter:hover{
+	color: #1DA1F2;
+	font-size: 40px;
+}
+.bi-facebook:hover{
+	color: #3b5998;
+	font-size: 40px;
+}
+.btn:focus, .btn:active, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.pp{
+	box-shadow: -15px -15px #192734;
+}
+.h2{
+	text-shadow: 3px 3px gray;
+}
+
+/* ================breakpoints======================== */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+	.pp{
+		width: 100%;
+		box-shadow: 0px 0px;
+	}
+	.desc{
+		margin: 5px;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	.html-st, .boostrap-st, .git-st, .css-st, .js-st{
+	transform: rotate(0deg);
+	}
+	.html-st{
+		color: #FF5733;
+	}
+	.boostrap-st{
+		color:#9147fe;
+	}
+	.css-st{
+		color: skyblue;
+	}
+	.js-st{
+		color: #F0DB4F;
+	}
+	.git-st{
+		color: #F1502F;
+	}
+	.bi-github{
+		color: #000;
+	}
+	.fa-instagram{
+		color: #C13584;
+	}
+	.bi-linkedin{
+		color: #2867B2;
+	}
+	.fa-twitter{
+		color: #1DA1F2;
+	}
+	.bi-facebook{
+		color: #3b5998;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
