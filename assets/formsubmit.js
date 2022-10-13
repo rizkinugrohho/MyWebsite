@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/library/d/1393V-P7odP0R1eEUm7t4Xd2An76S80DCNt8wob47XaOnqsMNGMytFlGw/1'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzPvpa3OuQ-EdTQ4vUGrNp8oW7YkExFwbCa2vyiSWSSxdHzMi57td6L0pWadxdfaZJcvw/exec'
 const form = document.forms['submit-to-google-sheet'];
 const btnKirim = document.querySelector(".btn-kirim");
 const btnLoading = document.querySelector(".btn-loading");
